@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center_horizontal" android:id="@id/rv_hotels" android:scrollbars="vertical" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sr_list_side_margin" android:layout_marginRight="@dimen/sr_list_side_margin" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/place_holder" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shabby_heart" />
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/favorites_placeholder_list_tip" />
+    </LinearLayout>
+</FrameLayout>

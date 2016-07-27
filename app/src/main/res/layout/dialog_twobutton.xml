@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="84.0dip" style="@style/Dialog.Message" />
+    <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip">
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/first_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialog.Button" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/second_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialog.Button" />
+    </LinearLayout>
+</FrameLayout>

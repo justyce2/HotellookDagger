@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.calendar.CalendarCellView android:clickable="true" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Calendar.Cell.CalendarDate" />
+    <View android:layout_gravity="center" android:background="@drawable/calendar_cell_bkg" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+</com.hotellook.ui.view.calendar.CalendarCellView>

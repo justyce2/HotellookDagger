@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.appbar.NestedParentRelativeLayout android:orientation="vertical" android:background="@color/gray_EDEFEF" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/filter_sorting_btn_container" layout="@layout/filters_controls" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/filter_sorting_btn_container" layout="@layout/results_list_view" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/filter_sorting_btn_container" layout="@layout/results_map_view" />
+    <View android:id="@id/sorting_shadow" android:background="@drawable/toolbar_shadow_tile" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/filter_sorting_btn_container" />
+</com.hotellook.ui.view.appbar.NestedParentRelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.searchresults.map.ClusterView android:background="@drawable/green_marker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/Hotel.Results.Map.Marker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotellook.ui.view.MarkerBadgesView android:layout_gravity="center_vertical" android:id="@id/badges" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="6.0dip" />
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100500" style="@style/Hotel.Results.Map.GroupMarkerText" />
+</com.hotellook.ui.screen.searchresults.map.ClusterView>

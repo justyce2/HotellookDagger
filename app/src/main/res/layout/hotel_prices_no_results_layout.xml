@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/change_params" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/hotel_no_rooms_tip" style="@style/Tv.Hotel.Tip" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center" android:id="@id/btn_change_params" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/hotel_change_search_params_btn" style="@style/Btn.Flat.Retry" />
+</LinearLayout>

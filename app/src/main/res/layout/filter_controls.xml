@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/filter_sorting_btn_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="9.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/btn_filter" android:background="@drawable/orange_btn_drawable" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sorting_btn_height" android:layout_marginRight="2.0dip" android:layout_weight="1.0">
+        <include layout="@layout/layout_filter_btn" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/btn_sorting" android:background="@drawable/filter_btn_drawable" android:paddingTop="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sorting_btn_height" android:layout_marginLeft="2.0dip" android:text="@string/sorting" style="@style/SR.Sorting" />
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/reset_btn" android:background="@drawable/bkg_sr_reset_btn" android:paddingTop="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sorting_btn_height" android:layout_marginLeft="2.0dip" android:text="@string/reset" style="@style/Filter.Apply.Btn" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/sf_default_image_bkg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/search_form_map" />
+        <FrameLayout android:id="@id/city_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_city" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/city_labels_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/search_form_city_label" />
+            </FrameLayout>
+        </FrameLayout>
+        <View android:layout_gravity="bottom" android:background="@drawable/top_shadow_tile" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </FrameLayout>
+    <com.hotellook.ui.view.SearchFormView android:id="@id/search_form" android:background="@color/sf_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

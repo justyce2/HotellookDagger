@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="@android:color/black" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.view.SafeScrollToRecyclerView android:id="@id/photos_grid" android:paddingLeft="@dimen/image_grid_padding" android:paddingRight="@dimen/image_grid_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/overlay" android:background="@android:color/black" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.view.touchypager.TouchyViewPager android:id="@id/photos_pager" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/transition_view" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+</FrameLayout>

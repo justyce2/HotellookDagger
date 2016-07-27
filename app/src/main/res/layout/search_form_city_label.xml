@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/city_labels" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="@dimen/city_labels_bottom_offset" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.AutoResizeRobotoTextView android:textSize="@dimen/sf_image_label_overlay_default_text_size" android:textColor="@color/sf_image_overlay_txt" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" app:typeface="roboto_slab_regular" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="12.0dip" android:textColor="@color/sf_image_overlay_txt" android:id="@id/hotels_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

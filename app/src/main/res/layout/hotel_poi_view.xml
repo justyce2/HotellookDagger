@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.general.PoiView android:background="@drawable/bkg_selectable_rect" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:text="Eiffel Tower Eiffel Tower Eiffel Tower Eiffel" android:singleLine="true" android:layout_toLeftOf="@id/icon" android:layout_alignParentLeft="true" style="@style/Hotel.BigText" />
+    <com.devspark.robototextview.widget.RobotoTextView android:ellipsize="end" android:id="@id/distance" android:paddingTop="-1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="1.5 км от отеля" android:maxLines="1" android:layout_below="@id/name" android:layout_alignLeft="@id/name" style="@style/Hotel.SmallText" />
+    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_poi" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/divider" android:background="@color/hotel_general_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/distance" />
+</com.hotellook.ui.screen.hotel.general.PoiView>

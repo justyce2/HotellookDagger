@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/toasts_btns_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/cal_range" android:layout_width="200.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" android:text="Calendar invalid range" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/currency" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Currency changed" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/error_location" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Location error" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/error_deeplink" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Deeplink error" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/removed_from_favs" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Hotel dislike" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/added_to_favs" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Hotel like" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/search_failed" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Search failed" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/hotel_today_no_gps" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Hotel for today no gps" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/error_update_location" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Error update location" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/location_permission_denied" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Location permission denied" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/location_settings_denied" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Location settings denied" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/no_play_services" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Play services not available" style="@style/Devs.Btn" />
+    </LinearLayout>
+</ScrollView>

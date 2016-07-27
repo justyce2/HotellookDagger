@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollViewWithFixedFling android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.LimitedWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:max_width="@dimen/max_hotel_item_fragment_width">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.devspark.robototextview.widget.RobotoTextView android:id="@id/best_offer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Zoning.Header" />
+            <com.hotellook.ui.screen.hotel.general.BestOfferView android:orientation="vertical" android:id="@id/best_offer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.devspark.robototextview.widget.RobotoTextView android:id="@id/details_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_general_location" style="@style/Zoning.Header" />
+            <RelativeLayout android:id="@id/address_container" android:background="@android:color/white" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ic_location" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/ic_address" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:id="@id/hotel_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/ic_location" style="@style/Hotel.BigText" />
+                <com.devspark.robototextview.widget.RobotoTextView android:id="@id/hotel_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/hotel_address" android:layout_alignLeft="@id/hotel_address" style="@style/Hotel.SmallText" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/map_placeholder" android:background="@android:color/white" android:paddingLeft="56.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="120.0dip">
+                <FrameLayout android:id="@id/map_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:id="@id/map_clickable" android:background="@drawable/bkg_selectable_rect_simple" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <com.hotellook.ui.screen.hotel.HotelInfoLoadableLayout android:id="@id/loadable_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/loadable_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center|left" android:id="@id/btn_street_view" android:paddingLeft="56.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/show_street_view" style="@style/HotelScreenStreetsViewBtnBkg" />
+                    </FrameLayout>
+                    <include android:id="@id/distances" layout="@layout/distances_view" />
+                    <include android:id="@id/features" layout="@layout/hotel_features_view" />
+                    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/room_amenities_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_general_in_room" style="@style/Zoning.Header" />
+                    <com.hotellook.ui.screen.hotel.amenity.AmenitiesLayout android:id="@id/room_amenities" android:background="@android:color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/hotel_amenities_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_general_in_hotel" style="@style/Zoning.Header" />
+                    <com.hotellook.ui.screen.hotel.amenity.AmenitiesLayout android:id="@id/hotel_amenities" android:background="@android:color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/description_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_general_description" style="@style/Zoning.Header" />
+                    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/description_text" android:background="@android:color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/Hotel.NormalText" />
+                    <com.devspark.robototextview.widget.RobotoTextView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_general_attractions" style="@style/Zoning.Header" />
+                    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <LinearLayout android:orientation="vertical" android:id="@id/poi_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.hotellook.ui.screen.hotel.HotelInfoLoadableLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </com.hotellook.ui.view.LimitedWidthFrameLayout>
+</android.support.v4.widget.NestedScrollViewWithFixedFling>

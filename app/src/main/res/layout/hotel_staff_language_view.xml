@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.features.HotelStaffLanguageView android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/hotel_staff_language_view_0" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_feature_country" android:scaleType="center" />
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" style="@style/Hotel.BigText" />
+</com.hotellook.ui.screen.hotel.features.HotelStaffLanguageView>

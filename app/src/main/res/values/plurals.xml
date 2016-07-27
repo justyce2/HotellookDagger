@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adults_count">
+        <item quantity="other">%d adults</item>
+        <item quantity="one">%d adult</item>
+    </plurals>
+    <plurals name="children_count">
+        <item quantity="other">%d kids</item>
+        <item quantity="one">%d child</item>
+    </plurals>
+    <plurals name="email_stars">
+        <item quantity="other">%d stars</item>
+        <item quantity="one">%d star</item>
+    </plurals>
+    <plurals name="favorite_hotel_count">
+        <item quantity="other">%d hotels</item>
+        <item quantity="one">%d hotel</item>
+    </plurals>
+    <plurals name="filters_hotels">
+        <item quantity="other">%1$s hotels out of %2$s</item>
+        <item quantity="one">%1$s hotel out of %2$s</item>
+    </plurals>
+    <plurals name="for_nights">
+        <item quantity="other">for %d nights</item>
+        <item quantity="one">for %d night</item>
+    </plurals>
+    <plurals name="hotel_prices_last_rooms">
+        <item quantity="other">%d rooms left!</item>
+        <item quantity="one">%d room left!</item>
+    </plurals>
+    <plurals name="kp_age">
+        <item quantity="other">years</item>
+        <item quantity="one">year</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">%d nights</item>
+        <item quantity="one">%d night</item>
+    </plurals>
+    <plurals name="reviews_count">
+        <item quantity="other">%s reviews</item>
+        <item quantity="one">%s review</item>
+    </plurals>
+    <plurals name="sf_hotel_num">
+        <item quantity="other">hotels</item>
+        <item quantity="one">hotel</item>
+    </plurals>
+    <plurals name="sr_guests">
+        <item quantity="other">%d guests</item>
+        <item quantity="one">%d guest</item>
+    </plurals>
+</resources>

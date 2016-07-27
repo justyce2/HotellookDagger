@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.kidspicker.AgePicker android:background="@color/kp_age_picker_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotellook.ui.view.AdvancedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.hotellook.ui.view.AdvancedScrollView>
+    <View android:id="@id/top_divider" android:background="@color/kp_age_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="72.0dip" android:layout_marginRight="72.0dip" />
+    <View android:id="@id/bottom_divider" android:background="@color/kp_age_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="72.0dip" android:layout_marginRight="72.0dip" />
+    <View android:background="@color/kp_item_divider" android:layout_width="fill_parent" android:layout_height="@dimen/age_picker_divider_height" android:layout_below="@id/scroll_view" />
+</com.hotellook.ui.view.kidspicker.AgePicker>

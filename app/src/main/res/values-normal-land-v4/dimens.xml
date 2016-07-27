@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="map_card_view_height">120.0dip</dimen>
+    <dimen name="cactus_high_bottom_margin">50.0dip</dimen>
+    <dimen name="clouds_top_margin">20.0dip</dimen>
+    <dimen name="hotel_card_discount_subtitle_text_size">9.0dip</dimen>
+    <dimen name="hotel_card_discount_title_text_size">14.0dip</dimen>
+    <dimen name="map_card_view_width">246.0dip</dimen>
+    <dimen name="sign_bet_bottom_margin">52.0dip</dimen>
+    <dimen name="tumbleweed_bottom_margin">55.0dip</dimen>
+</resources>

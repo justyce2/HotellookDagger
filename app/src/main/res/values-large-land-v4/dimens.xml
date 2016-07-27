@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_over_photo_offset">320.0dip</dimen>
+</resources>

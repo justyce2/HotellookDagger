@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.appbar.NestedParentRelativeLayout android:orientation="vertical" android:background="@color/sr_bkg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/results_list_view" />
+    <include layout="@layout/results_map_view" />
+    <include layout="@layout/map_filter_btn" />
+    <include layout="@layout/filter_controls" />
+</com.hotellook.ui.view.appbar.NestedParentRelativeLayout>

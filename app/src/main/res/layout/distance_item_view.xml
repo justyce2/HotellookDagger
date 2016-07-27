@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.distance.DistanceItemView android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/distance_item_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <com.devspark.robototextview.widget.RobotoTextView android:ellipsize="end" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" android:layout_weight="1.0" style="@style/Hotel.BigText" />
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Hotel.SmallText" />
+</com.hotellook.ui.screen.hotel.distance.DistanceItemView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:background="@color/gray_EDEFEF" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="24.0dip">
+                <View android:id="@id/select_currency_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/info_item_currency_select" android:maxLines="2" android:layout_toLeftOf="@id/currency" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Info.Item.Txt" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_vertical" android:id="@id/currency" android:focusable="false" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Info.BkgText" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/persistent_filters_container" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+            <com.devspark.robototextview.widget.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/global_settings" style="@style/Info.BkgText" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/rate_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="24.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_info_rate" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_item_rate" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/social_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_info_social" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_item_social" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/feedback_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_info_feedback" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_item_feedback" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/license_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_info_license" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_item_license" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/about_us_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_info_about_us" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_about_us" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/allow_en_gates_container" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="24.0dip">
+                <View android:id="@id/allow_en_gates_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/info_item_allow_en_gates" android:maxLines="2" android:layout_toLeftOf="@id/allow_en_gates_cb" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Info.Item.Txt" />
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/allow_en_gates_cb" android:focusable="false" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Info.Item.Checkbox" />
+            </RelativeLayout>
+            <com.devspark.robototextview.widget.RobotoTextView android:id="@id/en_gates_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/en_gates_pref_tip" style="@style/Info.BkgText" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dev_btn" android:background="@drawable/information_item_bkg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="24.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_bug_report_black_24dp" android:scaleType="center" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer_item_dev" style="@style/Info.Item.Txt" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/version_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info_version" />
+                <com.devspark.robototextview.widget.RobotoTextView android:id="@id/versionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/Info.BkgText" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

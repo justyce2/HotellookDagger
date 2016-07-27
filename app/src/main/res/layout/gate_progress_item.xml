@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.LimitedWidthFrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/gate_item_bkg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:max_width="@dimen/wide_screen_content_width">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@id/logo" android:layout_width="@dimen/gate_logo_width" android:layout_height="@dimen/gate_logo_height" />
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@color/gray_464748" android:layout_gravity="center_vertical" android:id="@id/hotels_websites" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gate_hotels_websites" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center|right" android:id="@id/progressbar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@android:color/transparent" android:indeterminate="true" app:mpb_progressStyle="circular" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/check_mark" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_big_green_mark" android:scaleType="center" />
+    </com.hotellook.ui.view.LimitedWidthFrameLayout>
+</FrameLayout>

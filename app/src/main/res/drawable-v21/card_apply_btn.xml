@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/bkg_rounded_gray_with_hardalpha" />
+    </item>
+    <item>
+        <ripple android:color="@color/gray_D9757575"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@android:id/mask" android:left="4.0dip" android:top="2.0dip" android:right="4.0dip" android:bottom="6.0dip">
+                <shape android:shape="rectangle">
+                    <corners android:radius="2.0dip" />
+                    <solid android:color="?android:colorAccent" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

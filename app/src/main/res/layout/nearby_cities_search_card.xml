@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:maxWidth="280.0dip" android:text="@string/neighbour_cities_search_card_title" android:layout_centerHorizontal="true" style="@style/CardPlaceholder.Message" />
+    <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_horizontal" android:id="@id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="30.0dip" android:text="@string/neighbour_cities_search_card_btn" android:layout_below="@id/message" android:layout_centerHorizontal="true" style="@style/CardPlaceholder.ResetBtn" />
+</RelativeLayout>

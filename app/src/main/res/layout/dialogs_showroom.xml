@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_btns_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/en_gates" android:layout_width="200.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" android:text="Enable En Gates" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/rate_us" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Rate us" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/currency_changed" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Currency changed" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/location_error" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Location error" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/location_permission" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Location permission" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/loading_nearest_location" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Loading nearest City" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/loading_location" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Loading Destination City" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/network_error" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Network error" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/server_error" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Server error" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/browser_loading" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Browser loading" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/out_of_date" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Out of date" style="@style/Devs.Btn" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/deeplink_error" android:layout_width="200.0dip" android:layout_height="60.0dip" android:text="Deeplink error" style="@style/Devs.Btn" />
+    </LinearLayout>
+</ScrollView>

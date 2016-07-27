@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.searchresults.HotelsListView android:id="@id/results_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.placeholder.PlaceHolder android:id="@id/place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:message="@string/no_hotels_after_filtering" app:buttonText="@string/reset" />
+    <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center_horizontal" android:id="@id/rv_hotels" android:paddingTop="@dimen/sr_top_padding" android:paddingBottom="@dimen/results_list_bottom_padding" android:scrollbars="vertical" android:saveEnabled="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sr_list_side_margin" android:layout_marginRight="@dimen/sr_list_side_margin" />
+</com.hotellook.ui.screen.searchresults.HotelsListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/green_71C34A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="3.0dip" android:progressDrawable="@drawable/drawable_progressbar_searchprogress" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:id="@id/gates_list_waiter" android:layout_width="36.0dip" android:layout_height="36.0dip" android:tint="@android:color/white" android:indeterminate="true" android:layout_centerInParent="true" app:mpb_progressStyle="circular" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/progressbar" />
+    <include android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/progressbar" layout="@layout/toolbar_shadow" />
+</RelativeLayout>

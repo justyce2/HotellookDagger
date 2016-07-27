@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollViewWithFixedFling android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hotellook.ui.screen.hotel.HotelInfoLoadableLayout android:layout_gravity="center_horizontal" android:id="@id/loadable_layout" android:paddingTop="@dimen/hotel_tab_place_holders_offset" android:layout_width="fill_parent" android:layout_height="fill_parent" app:max_width="@dimen/max_hotel_item_fragment_width">
+            <Space android:id="@id/loadable_content" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        </com.hotellook.ui.screen.hotel.HotelInfoLoadableLayout>
+    </android.support.v4.widget.NestedScrollViewWithFixedFling>
+    <android.support.v4.widget.NestedScrollViewWithFixedFling android:id="@id/content" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.hotellook.ui.view.LimitedWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:max_width="@dimen/max_hotel_item_fragment_width">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/overall_rating" layout="@layout/hotel_overall_rating_view" />
+                <include android:id="@id/ratings" layout="@layout/hotel_ratings_view" />
+                <include android:id="@id/visitors" layout="@layout/hotel_visitors_view" />
+                <include android:id="@id/useful_info" layout="@layout/hotel_useful_info_view" />
+                <include android:id="@id/reviews_highlights" layout="@layout/hotel_reviews_highlights_view" />
+                <include android:id="@id/reviews" layout="@layout/hotel_reviews_view" />
+            </LinearLayout>
+        </com.hotellook.ui.view.LimitedWidthFrameLayout>
+    </android.support.v4.widget.NestedScrollViewWithFixedFling>
+</FrameLayout>

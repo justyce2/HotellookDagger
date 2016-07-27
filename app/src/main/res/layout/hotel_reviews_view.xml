@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.reviews.HotelReviewsView android:orientation="vertical" android:tag="layout/hotel_reviews_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Zoning.Header">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reviews_from" style="@style/Zoning.Header.Text" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" app:srcCompat="@drawable/ic_foursquare" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/foursquare" style="@style/Zoning.Header.Text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/reviews" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/reviews_divider" android:showDividers="middle" android:dividerPadding="16.0dip" />
+</com.hotellook.ui.screen.hotel.reviews.HotelReviewsView>

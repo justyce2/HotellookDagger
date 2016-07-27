@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/drawable_bkg_filter_card" android:layout_width="fill_parent" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rsb="http://schemas.android.com/apk/res-auto">
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:text="@string/hotels_rating" style="@style/Filters.Card.Title" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginRight="34.0dip" android:text="@string/from" android:layout_alignParentRight="true" style="@style/Filters.Card.CountText" />
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/rating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginRight="15.0dip" android:text="8.1" android:layout_alignParentRight="true" style="@style/Filters.Card.ValueText" />
+    <com.jetradar.android.rangeseekbar.RangeSeekBar android:id="@id/seekbar" android:paddingTop="7.0dip" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" rsb:absoluteMinValue="0" rsb:absoluteMaxValue="100" style="@style/Filters.Card.RatingSeekbar" />
+</RelativeLayout>

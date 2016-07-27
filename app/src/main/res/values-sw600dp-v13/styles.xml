@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="AppGuide.Text.OtherAgencies" parent="@style/AppGuide.Text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:layout_marginTop">@dimen/app_guide_other_agencies_margin_top</item>
+    </style>
+    <style name="AppGuide.Text.Title" parent="@style/AppGuide.Text">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+</resources>

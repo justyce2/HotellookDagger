@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/spinner_city_drop_down_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_btn" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Filters.Page.Checkbox" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/radio_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_vertical" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Filters.Page.Title" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_vertical" android:id="@id/hotels_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/city_name" style="@style/RadioButton.Subtitle" />
+    </LinearLayout>
+    <View android:id="@id/separator" android:background="@color/gray_E9E9E9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

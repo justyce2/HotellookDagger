@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.searchresults.SearchResultsItemView android:id="@id/sr_item_content" android:background="@color/sr_item_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sr_touchable" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bkg_selectable_rect_simple">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/holder_no_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sr_holder_no_img" />
+        <View android:background="@drawable/sr_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="bottom" android:background="@drawable/sr_item_gradient_shadow" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+    </FrameLayout>
+    <com.hotellook.ui.view.DeactivatableViewPager android:id="@id/images_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/shadow_bottom" />
+    <LinearLayout android:orientation="vertical" android:id="@id/price_container" android:background="@color/red_B3D0021A" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center|right" android:layout_gravity="right" android:id="@id/special_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:includeFontPadding="false" android:drawableLeft="@drawable/ic_flash" android:drawablePadding="6.0dip" style="@style/SR.Price" />
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center|right" android:layout_gravity="right" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:includeFontPadding="false" android:drawablePadding="6.0dip" style="@style/SR.Price" />
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/spec_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="@string/special_offer" style="@style/SR.Nights" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="right" android:id="@id/nights" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SR.Nights" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="right" android:id="@id/old_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SR.Nights" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/price_container" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="29.0dip">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SR.Name" />
+            </FrameLayout>
+            <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/rate" android:layout_width="27.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" style="@style/SR.Rate" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RatingBar android:id="@id/stars" android:layout_width="wrap_content" android:layout_height="8.0dip" android:layout_marginLeft="17.0dip" android:layout_marginBottom="19.0dip" style="@style/SR.RatingBar" />
+    </FrameLayout>
+    <com.hotellook.ui.view.FlowLayout android:id="@id/badges" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="50.0dip" android:horizontalSpacing="4.0dip" android:verticalSpacing="6.0dip" />
+    <TextView android:textColor="@android:color/white" android:gravity="right" android:id="@id/debug" android:background="@android:color/black" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</com.hotellook.ui.screen.searchresults.SearchResultsItemView>

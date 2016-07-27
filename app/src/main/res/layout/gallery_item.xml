@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clickable" android:background="@color/sr_item_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/bkg_selectable_rect_simple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/image" android:background="@color/gray_D7D7D7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

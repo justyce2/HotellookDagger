@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:layout_gravity="center_vertical" android:id="@id/rating_disabled" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" style="@style/Filters.Page.RatingBar.Disabled" />
+    <RatingBar android:layout_gravity="center_vertical" android:id="@id/rating" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" style="@style/Filters.Page.RatingBar" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center|right" android:id="@id/count" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="48.0dip" android:text="10" style="@style/Filters.Page.CountText" />
+    <CheckBox android:layout_gravity="center|right" android:id="@id/checkbox" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="@style/Filters.Page.Checkbox" />
+    <View android:id="@id/clickable" android:background="@drawable/bkg_selectable_rect_simple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

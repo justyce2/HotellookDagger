@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/drawable_bkg_filter_card" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_marginBottom="@dimen/sr_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rsb="http://schemas.android.com/apk/res-auto">
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:text="@string/filter_price" style="@style/Filters.Card.Title" />
+    <com.jetradar.android.rangeseekbar.RangeSeekBar android:id="@id/seekbar" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" rsb:absoluteMinValue="20" rsb:absoluteMaxValue="150" style="@style/Filters.Card.PriceSeekbar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/from" style="@style/Filters.Card.CountText" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/price_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="8.1" style="@style/Filters.Card.ValueText" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/to" style="@style/Filters.Card.CountText" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/price_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="8.1" style="@style/Filters.Card.ValueText" />
+    </LinearLayout>
+</RelativeLayout>

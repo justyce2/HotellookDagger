@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/btn_map_filter" android:background="@drawable/orange_btn_drawable" android:visibility="gone" android:clickable="true" android:layout_width="158.0dip" android:layout_height="@dimen/sorting_btn_height" android:layout_marginBottom="9.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/map_filters_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:src="@drawable/ic_filters_on" />
+        <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filters" style="@style/SR.Sorting" />
+    </LinearLayout>
+</FrameLayout>

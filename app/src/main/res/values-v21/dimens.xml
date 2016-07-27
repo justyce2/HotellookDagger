@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sr_list_top_padding">3.0dip</dimen>
+    <dimen name="city_spinner_down_offset">50.0dip</dimen>
+    <dimen name="drawer_image_height">172.0dip</dimen>
+    <dimen name="search_form_spinner_dropdown_vertical_offset">-28.0dip</dimen>
+</resources>

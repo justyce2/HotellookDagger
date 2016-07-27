@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.searchresults.map.ResultsMapView android:id="@id/results_map" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.maps.MapView android:id="@id/map" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.view.mapplaceholder.MapPlaceHolder android:id="@id/map_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.screen.searchresults.map.ResultsMapOverlay android:id="@id/map_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="right" android:id="@id/location" android:background="@drawable/fab_location_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:id="@id/ic_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:src="@drawable/ic_location" />
+    </FrameLayout>
+</com.hotellook.ui.screen.searchresults.map.ResultsMapView>

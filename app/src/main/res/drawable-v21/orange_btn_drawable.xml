@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/white_pct_30"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/book_floating_widget_bkg" />
+    </item>
+    <item android:id="@android:id/mask" android:left="4.0dip" android:top="0.0dip" android:right="4.0dip" android:bottom="7.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="?android:colorAccent" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+</ripple>

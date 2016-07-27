@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.reviews.HotelReviewsItemView android:tag="layout/hotel_reviews_item_view_0" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.devspark.robototextview.widget.RobotoTextView android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Review.Name" />
+            <com.devspark.robototextview.widget.RobotoTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" style="@style/Review.Date" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/title" style="@style/Review.Text" />
+</com.hotellook.ui.screen.hotel.reviews.HotelReviewsItemView>

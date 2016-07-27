@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.LimitedWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:max_width="@dimen/wide_screen_content_width">
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_best_deals_from_agencies" app:typeface="roboto_medium" />
+    </com.hotellook.ui.view.LimitedWidthFrameLayout>
+</FrameLayout>

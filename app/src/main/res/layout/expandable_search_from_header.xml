@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bkg_light_pressable_rect" android:layout_width="fill_parent" android:layout_height="@dimen/hotel_price_collapse_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@color/gray_4D4D4D" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/search_form_title" android:layout_toLeftOf="@id/expand_indicator" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <include android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/green_expand_indicator_view" />
+</RelativeLayout>

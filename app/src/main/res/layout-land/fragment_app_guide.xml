@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AppGuide.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tutorial_title" android:layout_above="@id/images" style="@style/AppGuide.Text.Title" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/images" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/img_agencies" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_promo_agencies" style="@style/AppGuide.Image.Agencies" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial_and_others" style="@style/AppGuide.Text.OtherAgencies" />
+    </LinearLayout>
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/start_btn" android:text="@string/tutorial_start" android:layout_alignParentBottom="true" android:layout_centerInParent="true" style="@style/AppGuide.Button" />
+</RelativeLayout>

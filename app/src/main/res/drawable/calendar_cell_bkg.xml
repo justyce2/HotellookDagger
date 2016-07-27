@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" app:state_selectable="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/dark_pressed" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" app:state_selectable="false">
+        <color android:color="@android:color/transparent" />
+    </item>
+</selector>

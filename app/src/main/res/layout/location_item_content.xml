@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/image_drawee" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/touchy" android:background="@drawable/bkg_selectable_rect_simple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hotellook.ui.view.AutoResizeRobotoTextView android:textSize="30.0dip" android:textColor="@android:color/white" android:id="@id/tv_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:typeface="roboto_slab_regular" />
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:id="@id/tv_hotels_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+</merge>

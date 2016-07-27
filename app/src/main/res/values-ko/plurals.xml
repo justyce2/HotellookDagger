@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adults_count">
+        <item quantity="other">%d 성인</item>
+    </plurals>
+    <plurals name="children_count">
+        <item quantity="other">%d 어린이</item>
+    </plurals>
+    <plurals name="email_stars">
+        <item quantity="other">%d성급</item>
+    </plurals>
+    <plurals name="favorite_hotel_count">
+        <item quantity="other">%d개 호텔</item>
+    </plurals>
+    <plurals name="filters_hotels">
+        <item quantity="other">%2$s개 호텔 중 %1$s개</item>
+    </plurals>
+    <plurals name="for_nights">
+        <item quantity="other">%d박 요금</item>
+    </plurals>
+    <plurals name="hotel_prices_last_rooms">
+        <item quantity="other">잔여 객실 %d개!</item>
+    </plurals>
+    <plurals name="kp_age">
+        <item quantity="other">세</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">%d박</item>
+    </plurals>
+    <plurals name="reviews_count">
+        <item quantity="other">%s개 이용후기</item>
+    </plurals>
+    <plurals name="sf_hotel_num">
+        <item quantity="other">호텔</item>
+    </plurals>
+    <plurals name="sr_guests">
+        <item quantity="other">%d인 투숙객</item>
+    </plurals>
+</resources>

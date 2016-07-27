@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" style="@style/RadioButton.Title" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="bottom" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="9.0dip" style="@style/RadioButton.Subtitle" />
+    <RadioButton android:layout_gravity="center|right" android:id="@id/radio_btn" android:focusable="false" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="@style/Filters.Page.Checkbox" />
+    <View android:id="@id/clickable" android:background="@drawable/bkg_selectable_rect_simple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

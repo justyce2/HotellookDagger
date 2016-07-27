@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/city_select_spinner" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_filter" android:background="@drawable/bkg_btn_orange" android:clickable="true" android:layout_width="158.0dip" android:layout_height="32.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:animateLayoutChanges="true">
+        <ImageView android:id="@id/map_filters_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_filters_on" />
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filters" android:includeFontPadding="false" android:textAllCaps="true" app:typeface="roboto_medium" />
+    </LinearLayout>
+</RelativeLayout>

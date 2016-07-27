@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.maps.StreetViewPanoramaView android:id="@id/street_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.view.mapplaceholder.MapPlaceHolder android:id="@id/place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/toolbar_gradient" android:background="@drawable/toolbar_gradient" android:layout_width="fill_parent" android:layout_height="89.0dip" />
+    <FrameLayout android:id="@id/overlay" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

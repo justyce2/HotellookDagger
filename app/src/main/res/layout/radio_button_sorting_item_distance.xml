@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/clickable" android:background="@drawable/bkg_selectable_rect_simple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" style="@style/Filters.Page.Title" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@color/kp_add_btn" android:id="@id/distance_to" android:background="@drawable/bkg_selectable_rect_with_rounded_corners" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" app:typeface="roboto_medium" />
+        </FrameLayout>
+        <RadioButton android:id="@id/radio_btn" android:focusable="false" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="12.0dip" style="@style/Filters.Page.Checkbox" />
+    </LinearLayout>
+</merge>

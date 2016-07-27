@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.prices.RoomOffersView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotellook.ui.view.LimitedSizeLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:max_width="@dimen/max_hotel_item_fragment_width">
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/room_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Zoning.Header" />
+        <LinearLayout android:orientation="vertical" android:id="@id/offers_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/expand_btn_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offers_divider_height">
+            <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/expand_btn" android:background="@drawable/bkg_selectable_rect" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/show_more_offers" style="@style/Hotel.OrangeTxtBtn" />
+        </FrameLayout>
+    </com.hotellook.ui.view.LimitedSizeLinearLayout>
+</com.hotellook.ui.screen.hotel.prices.RoomOffersView>

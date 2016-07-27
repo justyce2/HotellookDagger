@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.appbar.NestedParentRelativeLayout android:orientation="vertical" android:background="@color/gray_EDEFEF" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/filters_fragment_container" android:layout_width="360.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <include android:id="@id/filter_sorting_btn_container" android:background="@drawable/bkg_btn_orange" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_toLeftOf="@id/filters_fragment_container" layout="@layout/filters_controls" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/filters_fragment_container" android:layout_below="@id/filter_sorting_btn_container" layout="@layout/results_list_view" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/filters_fragment_container" layout="@layout/results_map_view" />
+    <View android:background="@color/black_pct_12" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/filters_fragment_container" />
+    <View android:id="@id/toolbar_sorting_shadow" android:background="@drawable/toolbar_shadow_tile" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_toLeftOf="@id/filters_fragment_container" />
+    <View android:id="@id/sorting_shadow" android:background="@drawable/toolbar_shadow_tile" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_toLeftOf="@id/filters_fragment_container" android:layout_below="@id/filter_sorting_btn_container" />
+</com.hotellook.ui.view.appbar.NestedParentRelativeLayout>

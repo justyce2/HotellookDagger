@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:textColor="@color/kp_add_btn_selector" android:id="@id/apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/kids_picker_apply" android:layout_centerVertical="true" style="@style/TextButtonWithRoundedCorners" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textColor="@color/kp_add_btn_selector" android:id="@id/open_age_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/kp_add_kid" android:layout_toRightOf="@id/apply" android:layout_centerVertical="true" style="@style/TextButtonWithRoundedCorners" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textColor="@color/kp_add_btn" android:id="@id/add_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/kp_add" android:layout_centerVertical="true" style="@style/TextButtonWithRoundedCorners" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textColor="@color/kp_cancel_btn" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/kp_cancel" android:layout_toRightOf="@id/add_child" android:layout_centerVertical="true" style="@style/TextButtonWithRoundedCorners" />
+    <Space android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

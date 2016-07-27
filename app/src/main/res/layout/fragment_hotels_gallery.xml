@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/hotels_gallery_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotellook.utils.sdk.PatchyViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Space android:id="@id/center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:text="@string/hotels_gallery_tip" android:layout_below="@id/center" android:layout_centerHorizontal="true" style="@style/HotelsGallery.TipTxt" />
+</RelativeLayout>

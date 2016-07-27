@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_btn" android:background="@drawable/btn_green" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="70.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/people" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/search_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/search_prices" android:textAllCaps="true" app:typeface="roboto_medium" />
+    <com.hotellook.ui.view.CircularProgressBar android:layout_gravity="center" android:id="@id/search_pb" android:background="@android:color/white" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" style="@android:style/Widget.ProgressBar.Small" />
+</FrameLayout>

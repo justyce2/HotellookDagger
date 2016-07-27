@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adults_count">
+        <item quantity="other">%d ผู้ใหญ่</item>
+    </plurals>
+    <plurals name="children_count">
+        <item quantity="other">%d เด็ก</item>
+    </plurals>
+    <plurals name="email_stars">
+        <item quantity="other">%d ดาว</item>
+    </plurals>
+    <plurals name="favorite_hotel_count">
+        <item quantity="other">โรงแรม %d แห่ง</item>
+    </plurals>
+    <plurals name="filters_hotels">
+        <item quantity="other">เหลือโรงแรม %1$s แห่งจากทั้งหมด %2$s แห่ง</item>
+    </plurals>
+    <plurals name="for_nights">
+        <item quantity="other">สำหรับ %d คืน</item>
+    </plurals>
+    <plurals name="hotel_prices_last_rooms">
+        <item quantity="other">เหลือ %d ห้อง!</item>
+    </plurals>
+    <plurals name="kp_age">
+        <item quantity="other">ปี</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">%d คืน</item>
+    </plurals>
+    <plurals name="reviews_count">
+        <item quantity="other">%s รีวิว</item>
+    </plurals>
+    <plurals name="sf_hotel_num">
+        <item quantity="other">โรงแรม</item>
+    </plurals>
+    <plurals name="sr_guests">
+        <item quantity="other">แขก %d ท่าน</item>
+    </plurals>
+</resources>

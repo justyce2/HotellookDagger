@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/sr_border_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/content_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sr_item_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="right" android:id="@id/discount_container" android:background="@drawable/discount_rounded_rectangle" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginTop="14.0dip">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/discount_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/Hotel.Card.Discount.Title" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/discount" style="@style/Hotel.Card.Discount.SubTitle" />
+    </FrameLayout>
+</FrameLayout>

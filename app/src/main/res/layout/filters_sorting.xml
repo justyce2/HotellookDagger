@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="16.0dip" android:textColor="@color/gray_797A7C" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="57.0dip" android:layout_marginLeft="16.0dip" android:text="@string/sort_by" />
+    <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioGroup android:orientation="vertical" android:id="@id/sorting_group_algo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioButton android:id="@id/sorting_popularity" android:layout_width="wrap_content" android:layout_height="@dimen/sorting_item_height" app:titleText="@string/popularity" />
+        <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioButton android:id="@id/sorting_ratings" android:layout_width="wrap_content" android:layout_height="@dimen/sorting_item_height" app:titleText="@string/guest_ratings" />
+        <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioButton android:id="@id/sorting_price" android:layout_width="wrap_content" android:layout_height="@dimen/sorting_item_height" app:titleText="@string/price" />
+        <com.hotellook.ui.screen.filters.radiogroup.DistanceSortingFilterRadioButton android:id="@id/sorting_distance" android:layout_width="wrap_content" android:layout_height="@dimen/sorting_item_height" app:titleText="@string/distance_from" app:layoutId="@layout/radio_button_sorting_item_distance" />
+        <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioButton android:id="@id/sorting_discount" android:layout_width="wrap_content" android:layout_height="@dimen/sorting_item_height" app:titleText="@string/discount_sorting" />
+    </com.hotellook.ui.screen.filters.radiogroup.FiltersRadioGroup>
+</LinearLayout>

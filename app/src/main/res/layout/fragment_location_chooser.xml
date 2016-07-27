@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.maps.MapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hotellook.ui.view.mapplaceholder.MapPlaceHolder android:id="@id/place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/ic_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/location_chooser_pin" />
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="bottom|center" android:id="@id/apply_btn" android:background="@drawable/orange_btn_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/location_chooser_apply_btn" style="@style/DP.Apply.Btn" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/tabs_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/filters_tabs" />
+    </FrameLayout>
+    <View android:id="@id/tabs_shadow" android:background="@drawable/toolbar_shadow_tile" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/tabs_container" />
+</merge>

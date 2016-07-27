@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_bn_search" android:id="@id/bn_search" android:title="@string/bn_search" />
+    <item android:icon="@drawable/ic_bn_favorites" android:id="@id/bn_favorites" android:title="@string/bn_favorite" />
+    <item android:icon="@drawable/ic_bn_profile" android:id="@id/bn_profile" android:title="@string/bn_profile" />
+</menu>

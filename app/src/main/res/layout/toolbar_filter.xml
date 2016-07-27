@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/green_71C34A" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/state_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filters" style="@style/SR.Toolbar.Title" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/SR.Toolbar.Subtitle" />
+    </LinearLayout>
+    <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_vertical" android:id="@id/reset_btn" android:background="@drawable/bkg_selectable_rect" android:paddingLeft="8.0dip" android:paddingTop="9.0dip" android:paddingRight="8.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip" android:text="@string/reset" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SR.Toolbar.StateBtnText" />
+</RelativeLayout>

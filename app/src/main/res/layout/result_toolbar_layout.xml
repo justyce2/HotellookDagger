@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/state_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SR.Toolbar.Title" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/SR.Toolbar.Subtitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/state_btn" android:background="@drawable/bkg_selectable_rect" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/state_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_results_map" android:scaleType="center" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/state_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/results_state_map" style="@style/SR.Toolbar.StateBtnText" />
+    </LinearLayout>
+</RelativeLayout>

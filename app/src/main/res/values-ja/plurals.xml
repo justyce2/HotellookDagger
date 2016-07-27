@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adults_count">
+        <item quantity="other">大人%d人</item>
+    </plurals>
+    <plurals name="children_count">
+        <item quantity="other">子ども %d 人</item>
+    </plurals>
+    <plurals name="email_stars">
+        <item quantity="other">星%dつ</item>
+    </plurals>
+    <plurals name="favorite_hotel_count">
+        <item quantity="other">%d件のホテル</item>
+    </plurals>
+    <plurals name="filters_hotels">
+        <item quantity="other">%2$s件中%1$s件</item>
+    </plurals>
+    <plurals name="for_nights">
+        <item quantity="other">%d泊</item>
+    </plurals>
+    <plurals name="hotel_prices_last_rooms">
+        <item quantity="other">残り%d部屋！</item>
+    </plurals>
+    <plurals name="kp_age">
+        <item quantity="other">歳</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">%d泊</item>
+    </plurals>
+    <plurals name="reviews_count">
+        <item quantity="other">%s レビュー</item>
+    </plurals>
+    <plurals name="sf_hotel_num">
+        <item quantity="other">ホテル</item>
+    </plurals>
+    <plurals name="sr_guests">
+        <item quantity="other">宿泊者%d人</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/calendar_cell_text_low_price" app:state_selectable="true" app:state_price_group_low="true" />
+    <item android:color="@color/calendar_cell_text_normal_price" app:state_selectable="true" app:state_price_group_normal="true" />
+    <item android:color="@color/calendar_cell_text_high_price" app:state_selectable="true" app:state_price_group_high="true" />
+    <item android:color="@color/calendar_cell_text" app:state_selectable="true" />
+    <item android:color="@color/calendar_cell_text_inactive" app:state_selectable="false" />
+</selector>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adults_count">
+        <item quantity="other">%d 名成人</item>
+    </plurals>
+    <plurals name="children_count">
+        <item quantity="other">%d 名儿童</item>
+    </plurals>
+    <plurals name="email_stars">
+        <item quantity="other">%d星</item>
+    </plurals>
+    <plurals name="favorite_hotel_count">
+        <item quantity="other">%d家酒店</item>
+    </plurals>
+    <plurals name="filters_hotels">
+        <item quantity="other">在%2$s家酒店中仅有%1$s家酒店有空房</item>
+    </plurals>
+    <plurals name="for_nights">
+        <item quantity="other">住 %d 晚</item>
+    </plurals>
+    <plurals name="hotel_prices_last_rooms">
+        <item quantity="other">只剩%d间！</item>
+    </plurals>
+    <plurals name="kp_age">
+        <item quantity="other">岁</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">%d晚</item>
+    </plurals>
+    <plurals name="reviews_count">
+        <item quantity="other">%s 评价</item>
+    </plurals>
+    <plurals name="sf_hotel_num">
+        <item quantity="other">酒店</item>
+    </plurals>
+    <plurals name="sr_guests">
+        <item quantity="other">%d位住客</item>
+    </plurals>
+</resources>

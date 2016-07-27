@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/blue_D8F3FF" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.9">
+            <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mountains" />
+        </FrameLayout>
+        <FrameLayout android:background="@color/orange_F2AC4B" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.45">
+            <ImageView android:background="@drawable/horizont_tiled" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.devspark.robototextview.widget.RobotoTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/placeholder_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:maxWidth="400.0dip" style="@style/PlaceHolder.Text" />
+                <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_horizontal" android:id="@id/placeholder_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="72.0dip" style="@style/PlaceHolder.Text.Button" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginBottom="@dimen/sign_bet_bottom_margin" android:src="@drawable/sign_bed" />
+    <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="52.0dip" android:layout_marginBottom="@dimen/cactus_high_bottom_margin" android:src="@drawable/cactus_high" />
+    <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginBottom="48.0dip" android:src="@drawable/cactus" />
+    <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="73.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/stone" />
+    <com.hotellook.ui.view.placeholder.TumbleweedView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginBottom="@dimen/tumbleweed_bottom_margin" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.hotel.prices.OfferView android:tag="layout/offer_view_0" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/clickable" android:background="@drawable/bkg_selectable_rect" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignBottom="@id/bottom_segment" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/logo_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_toLeftOf="@id/pricesInLocations" android:layout_alignParentLeft="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gate_logo" android:layout_width="120.0dip" android:layout_height="16.0dip" app:fadeDuration="150" />
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@color/gray_4D4D4D" android:id="@id/gate_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:singleLine="true" app:typeface="roboto_medium" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/prices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="right" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:drawablePadding="6.0dip" style="@style/Hotel.Prices.Offer.Price" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="right" android:id="@id/discount_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" style="@style/Hotel.Prices.Offer.PriceWithDiscount" />
+        <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="right" android:id="@id/before_discount_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" style="@style/Hotel.Prices.Offer.PriceBeforeDiscount" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_segment" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/logo_container">
+        <com.devspark.robototextview.widget.RobotoTextView android:textColor="@color/gray_4D4D4D" android:id="@id/room_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <com.hotellook.ui.view.FlowLayout android:id="@id/gate_options_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="8.0dip" />
+        <com.devspark.robototextview.widget.RobotoTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/booking_btn" android:background="@drawable/green_selectable_rounded_rect" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="15.0dip" android:text="@string/best_offer_book" android:textAllCaps="true" app:typeface="roboto_medium" />
+    </LinearLayout>
+</com.hotellook.ui.screen.hotel.prices.OfferView>

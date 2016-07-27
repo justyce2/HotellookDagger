@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/spinner_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/sort_by" style="@style/Filters.Page.Title" />
+    <android.widget.Spinner android:layout_gravity="center_vertical" android:id="@id/sorting_spinner" android:background="@null" android:saveEnabled="false" android:layout_width="350.0dip" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginRight="16.0dip" android:dropDownVerticalOffset="@dimen/city_spinner_down_offset" android:spinnerMode="dropdown" />
+</LinearLayout>

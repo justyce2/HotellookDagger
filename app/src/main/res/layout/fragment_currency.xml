@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:id="@id/scrollable_container" android:background="@color/gray_EDEFEF" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hotellook.ui.screen.filters.radiogroup.FiltersRadioGroup android:orientation="vertical" android:id="@id/currency_group" android:background="@color/gray_FAFAFA" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotellook.ui.screen.hotel.ScrollableFrameLayout android:layout_gravity="center_horizontal" android:id="@id/scrollable_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/hotel_info" layout="@layout/hotel_card" />
+        <View android:id="@id/hotel_card_overlay" android:background="@color/green_71C34A" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/viewpager_bkg" android:background="@color/gray_EDEFEF" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.hotellook.ui.screen.hotel.ViewPagerWithExtendedMotionInterception android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/pager_loading" layout="@layout/view_hotel_info_loading" />
+        <com.hotellook.ui.view.tabview.SlidingTabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/hotel_info" style="@style/Hotel.TabBar" />
+        <View android:id="@id/overlay_shadow" android:background="@drawable/toolbar_shadow_tile" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <View android:id="@id/tab_shadow" android:background="@drawable/toolbar_shadow_tile" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/tabs" />
+        <FrameLayout android:id="@id/controls" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="left" android:id="@id/previous_photo" android:layout_width="@dimen/photo_control_btn_tap_size" android:layout_height="@dimen/photo_control_btn_tap_size">
+                <ImageView android:layout_width="@dimen/photo_control_btn_size" android:layout_height="@dimen/photo_control_btn_size" style="@style/PhotoControlLeftBtn" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="right" android:id="@id/next_photo" android:layout_width="@dimen/photo_control_btn_tap_size" android:layout_height="@dimen/photo_control_btn_tap_size">
+                <ImageView android:layout_width="@dimen/photo_control_btn_size" android:layout_height="@dimen/photo_control_btn_size" style="@style/PhotoControlRightBtn" />
+            </FrameLayout>
+        </FrameLayout>
+    </com.hotellook.ui.screen.hotel.ScrollableFrameLayout>
+</FrameLayout>

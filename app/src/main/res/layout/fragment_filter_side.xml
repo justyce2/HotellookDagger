@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:clipChildren="false" android:layout_width="360.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/toolbar_layout" android:background="@color/green_71C34A" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_filter" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/filters_layout" />
+    </RelativeLayout>
+</LinearLayout>

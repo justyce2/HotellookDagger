@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_over_photo_offset">0.0dip</dimen>
+    <dimen name="sr_item_side_margin">4.0dip</dimen>
+    <dimen name="sr_list_side_margin">4.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="city_labels_bottom_offset">22.0dip</dimen>
+    <dimen name="fl_bottom_margin">2.0dip</dimen>
+    <dimen name="fl_top_margin">2.0dip</dimen>
+    <dimen name="floating_search_form_max_height">336.0dip</dimen>
+    <dimen name="hotel_max_content_width">768.0dip</dimen>
+    <dimen name="map_card_view_height">156.0dip</dimen>
+    <dimen name="results_list_bottom_padding">0.0dip</dimen>
+    <dimen name="sorting_btn_height">45.0dip</dimen>
+    <dimen name="sr_bottom_margin">0.0dip</dimen>
+    <dimen name="sr_discount_bottom_margin">4.5dip</dimen>
+    <dimen name="sr_discount_side_margin">4.0dip</dimen>
+    <dimen name="sr_discount_title_top_margin">10.0dip</dimen>
+    <dimen name="sr_discount_top_margin">4.0dip</dimen>
+    <dimen name="sr_list_top_padding">4.0dip</dimen>
+    <dimen name="sr_top_margin">8.0dip</dimen>
+    <dimen name="sr_top_padding">1.0dip</dimen>
+</resources>

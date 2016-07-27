@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.view.CircularProgressBar android:layout_gravity="center" android:background="@color/hotel_pb_loading" android:layout_width="32.0dip" android:layout_height="32.0dip" style="@android:style/Widget.ProgressBar.Small"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

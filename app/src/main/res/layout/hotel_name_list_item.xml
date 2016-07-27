@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/bkg_hotel_name_select" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_hotel_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_hotel" android:scaleType="center" android:layout_centerVertical="true" />
+    <com.devspark.robototextview.widget.RobotoTextView android:id="@id/hotel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="16.0dip" android:text="Premium Disco Club SPA Beach Resort Hotel" android:singleLine="true" android:layout_centerVertical="true" style="@style/DP.ResultsItem.Text.Big" />
+    <View android:id="@id/bottom_divider" android:background="@color/dp_destinations_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="72.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

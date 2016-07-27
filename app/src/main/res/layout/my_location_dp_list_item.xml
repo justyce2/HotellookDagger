@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotellook.ui.screen.filters.pois.CurrentLocationView android:id="@id/current_location_view" android:layout_width="fill_parent" android:layout_height="54.0dip" android:foreground="@drawable/bkg_selectable_rect_simple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:layout_gravity="center|left" android:id="@id/sf_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="5.0dip" android:text="@string/my_location" style="@style/DP.ResultsItem.Text.Big" />
+    <ImageView android:layout_gravity="center|left" android:id="@id/gps" android:duplicateParentState="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_gps" android:scaleType="center" />
+    <com.hotellook.ui.view.CircularProgressBar android:layout_gravity="center|left" android:id="@id/pb_gps" android:background="@color/sf_gps_pb_color" android:duplicateParentState="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:scaleType="center" style="@android:style/Widget.ProgressBar.Small" />
+</com.hotellook.ui.screen.filters.pois.CurrentLocationView>

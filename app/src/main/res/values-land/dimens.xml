@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="app_guide_image_agencies_max_width">272.0dip</dimen>
+    <dimen name="layout_over_photo_offset">264.0dip</dimen>
+    <dimen name="sr_item_side_margin">2.0dip</dimen>
+    <dimen name="sr_list_side_margin">2.0dip</dimen>
+    <dimen name="booking_widget_bottom_margin">5.0dip</dimen>
+    <dimen name="booking_widget_core_height">36.0dip</dimen>
+    <dimen name="booking_widget_width">336.0dip</dimen>
+</resources>

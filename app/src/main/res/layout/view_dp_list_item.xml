@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/bkg_selectable_rect" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_hotel_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_hotel" android:scaleType="center" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_city_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_marker" android:scaleType="center" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="5.0dip" android:layout_centerVertical="true">
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/destination_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DP.ResultsItem.Text.Big" />
+        <com.devspark.robototextview.widget.RobotoTextView android:id="@id/destination_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginRight="5.0dip" style="@style/DP.ResultsItem.Text.Small" />
+    </LinearLayout>
+</RelativeLayout>
